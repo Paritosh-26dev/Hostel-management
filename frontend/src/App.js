@@ -16,7 +16,7 @@ import UserEditView from "./screens/userEditView";
 
 const App = () => {
   return (
-    <Router>
+    <Router basename='/'>
       <Header />
       <main className="py-3">
         <Container>
